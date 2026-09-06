@@ -1,0 +1,16 @@
+{
+  "name": "genpark-autonomous-code-skill-synthesis-evaluator-skill",
+  "version": "1.0.0",
+  "description": "Autonomous skill code synthesizer, AST validator, sandboxed unit-test generator, and skill library archiver.",
+  "author": "GenPark AI",
+  "license": "MIT",
+  "keywords": [
+    "synthesis",
+    "ast-validation",
+    "unit-test",
+    "voyager",
+    "skill-evaluator",
+    "genpark",
+    "mcp"
+  ]
+}
