@@ -7,11 +7,10 @@ from client import AutonomousSkillSynthesisEvaluatorClient
 def main():
     evaluator = AutonomousSkillSynthesisEvaluatorClient()
 
-    synthesized_code = """
-def calculate_compound_interest(principal, rate, years):
-    """Calculates compound interest given annual interest rate and time."""
-    return round(principal * ((1 + rate) ** years), 2)
-"""
+    synthesized_code = (
+        "def calculate_compound_interest(principal, rate, years):\n"
+        "    return round(principal * ((1 + rate) ** years), 2)\n"
+    )
 
     report = evaluator.verify_skill_execution(
         code_str=synthesized_code,
